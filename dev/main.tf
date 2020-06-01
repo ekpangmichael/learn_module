@@ -8,7 +8,7 @@ provider "aws" {
 
 
 
-module "website_s3_bucket" {
+module "s3" {
   source = "../modules/aws-s3-static-website-bucket/"
 
   bucket_name = var.bucket_name
